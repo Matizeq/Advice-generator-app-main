@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(218, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  background-color: hsl(217, 19%, 24%);
+  padding: 40px 25px 55px 25px;
+  min-width: 350px;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  position: relative;
+}
+.container h1 {
+  color: hsl(150, 100%, 66%);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.container p {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 800;
+  min-width: 350px;
+  max-width: 470px;
+}
+.container .dice {
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 100px;
+  border: none;
+  padding: 13px;
+  display: flex;
+  position: absolute;
+  bottom: -25px;
+  cursor: pointer;
+}
+.container .dice:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: -2px -2px 27px -1px rgb(20, 214, 167);
+  -webkit-box-shadow: -2px -2px 27px -1px rgb(20, 214, 167);
+  -moz-box-shadow: -2px -2px 27px -1px rgb(20, 214, 167);
+}/*# sourceMappingURL=style.css.map */
